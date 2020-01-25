@@ -5,5 +5,4 @@ from .models import IotModel
 class IotModelSerializer(serializers.ModelSerializer):
     class Meta:
         model = IotModel
-        fields = ('id','url', 'device_name', 'status', 'colour')
-
+        fields = ('id', 'url', 'device_name', 'status', 'colour')

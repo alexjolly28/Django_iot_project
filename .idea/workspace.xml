@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="18206d08-f4ce-43d0-b641-916e26aecace" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iot/serialzers.py" beforeDir="false" afterPath="$PROJECT_DIR$/iot/serialzers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +101,7 @@
       <workItem from="1579607605627" duration="1005000" />
       <workItem from="1579608789634" duration="1157000" />
       <workItem from="1579684179212" duration="998000" />
-      <workItem from="1579685479883" duration="7516000" />
+      <workItem from="1579685479883" duration="10054000" />
     </task>
     <servers />
   </component>
