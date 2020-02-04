@@ -1,9 +1,10 @@
 from django.urls import path, include
-from . import views
-from rest_framework import routers
+from iot.views import IotView
 
-router = routers.DefaultRouter()
-router.register('iot', views.IotModelView)
+# from rest_framework import routers
+#
+# # router = routers.DefaultRouter()
+# # router.register('iot', views.IotView)
 urlpatterns = [
-    path('', include(router.urls))
+    path('iot/', IotView.as_view(), name='iotview')
 ]

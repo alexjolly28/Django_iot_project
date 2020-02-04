@@ -4,13 +4,32 @@
     <list default="true" id="18206d08-f4ce-43d0-b641-916e26aecace" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iot/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/iot/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/iot/serialzers.py" beforeDir="false" afterPath="$PROJECT_DIR$/iot/serialzers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iot/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/iot/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iot/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/iot/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iot/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/iot/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
@@ -26,6 +45,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JupyterTrust" id="c4eed64c-bc2f-4dbe-bde0-a8734a84f525" />
   <component name="ProjectId" id="1WhhBdPP3C2QO8bNhm2fI8Lbbv0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -101,7 +121,10 @@
       <workItem from="1579607605627" duration="1005000" />
       <workItem from="1579608789634" duration="1157000" />
       <workItem from="1579684179212" duration="998000" />
-      <workItem from="1579685479883" duration="10054000" />
+      <workItem from="1579685479883" duration="11737000" />
+      <workItem from="1580222589981" duration="575000" />
+      <workItem from="1580387304013" duration="5848000" />
+      <workItem from="1580817539251" duration="6585000" />
     </task>
     <servers />
   </component>
@@ -109,21 +132,27 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="320" y="115" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579685506166">
+    <state x="320" y="115" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579984587658">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="115" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1579685506166" />
+    <state x="320" y="115" key="#com.intellij.execution.impl.EditConfigurationsDialog/1440.0.1360.768/0.0.1440.900@0.0.1440.900" timestamp="1579984587658" />
     <state x="475" y="222" key="EnvironmentVariablesDialog" timestamp="1579609269542">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="475" y="222" key="EnvironmentVariablesDialog/0.0.1440.900@0.0.1440.900" timestamp="1579609269542" />
+    <state width="219" height="457" key="HiddenNamespacesPopup" timestamp="1579984561899">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="219" height="457" key="HiddenNamespacesPopup/1440.0.1360.768/0.0.1440.900@0.0.1440.900" timestamp="1579984561899" />
     <state x="229" y="89" key="SettingsEditor" timestamp="1579685573872">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1579685573872" />
-    <state x="413" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1579685482207">
+    <state x="551" y="158" key="com.intellij.ide.util.TipDialog" timestamp="1580817574513">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="413" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1579685482207" />
+    <state x="551" y="158" key="com.intellij.ide.util.TipDialog/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1580387309242" />
+    <state x="551" y="158" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1580817574513" />
   </component>
 </project>

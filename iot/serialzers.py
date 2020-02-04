@@ -1,8 +1,9 @@
-from rest_framework import serializers
+from rest_framework.serializers import ModelSerializer
 from .models import IotModel
 
 
-class IotModelSerializer(serializers.ModelSerializer):
+class IotModelSerializer(ModelSerializer):
     class Meta:
         model = IotModel
-        fields = ('id', 'url', 'device_name', 'status', 'colour')
+        fields = '__all__'
+
