@@ -10,7 +10,6 @@ from rest_framework.renderers import JSONRenderer
 from rest_framework.parsers import JSONParser
 
 
-
 class IotView(generics.GenericAPIView, mixins.ListModelMixin):
     queryset = IotModel.objects.all()
     serializer_class = IotModelSerializer
