@@ -31,15 +31,15 @@ client.on_connect = on_connect
 client.on_message = on_message
 client.connect(broker_url, broker_port)
 
-client.subscribe("test", qos=1)
-client.subscribe("test1", qos=1)
-client.subscribe("test2", qos=1)
-client.message_callback_add("test1", on_message_from_kitchen)
-client.message_callback_add("test2", on_message_from_bedroom)
-client.loop_start()
+# client.subscribe("test", qos=1)
+# client.subscribe("test1", qos=1)
+# client.subscribe("test2", qos=1)
+# client.message_callback_add("test1", on_message_from_kitchen)
+# client.message_callback_add("test2", on_message_from_bedroom)
+# client.loop_start()
 # time.sleep(5)
-on_publish(topic="test1", payload="pub")
-time.sleep(5)
-
-client.loop_stop()
+# on_publish(topic="test1", payload="pub")
+# time.sleep(5)
+#
+# client.loop_stop()
 # client.loop_forever()
