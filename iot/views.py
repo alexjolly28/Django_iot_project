@@ -8,6 +8,7 @@ from rest_framework import generics
 from rest_framework import mixins
 from rest_framework.renderers import JSONRenderer
 from rest_framework.parsers import JSONParser
+from .mqtt import on_publish
 
 
 class IotView(generics.GenericAPIView, mixins.ListModelMixin, mixins.UpdateModelMixin, mixins.RetrieveModelMixin):
@@ -30,10 +31,9 @@ class IotView(generics.GenericAPIView, mixins.ListModelMixin, mixins.UpdateModel
 
         else:
             print("turning", status)
+            on_publish(topic=device_name,payload=status)
             serializer = IotModelSerializer(queryset, data=request.data)
             if serializer.is_valid():
                 serializer.save()
                 return Response(serializer.data)
             return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
-
-
