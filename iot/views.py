@@ -31,7 +31,7 @@ class IotView(generics.GenericAPIView, mixins.ListModelMixin, mixins.UpdateModel
 
         else:
             print("turning", status)
-            on_publish(topic=device_name,payload=status)
+            on_publish(topic=device_name, payload=status)
             serializer = IotModelSerializer(queryset, data=request.data)
             if serializer.is_valid():
                 serializer.save()
