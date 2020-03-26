@@ -25,14 +25,16 @@ def main(text):
                 a["colour"] = entity["value"]
 
     json_a = json.dumps(a)
-    return (json_a)
-
-
-if __name__ == '__main__':
-    text = {"text": "turn  on green light  "}
-
-    data_json = main(text)
-    print(data_json)
-    # test_json = {"device_name": "fan", "status": "off"}
-    resp = requests.post(api_url, json=data_json)
+    resp = requests.post(api_url, json=json_a)
     print(resp)
+    return (True)
+
+
+# if __name__ == '__main__':
+#     text = {"text": "turn  off green light  "}
+#
+#     data_json = main(text)
+#     print(data_json)
+#     # test_json = {"device_name": "fan", "status": "off"}
+#     resp = requests.post(api_url, json=data_json)
+#     print(resp)
