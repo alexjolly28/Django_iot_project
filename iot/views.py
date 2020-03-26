@@ -51,3 +51,4 @@ class EndView(APIView):
         a = rasa_test.main(request.data)
         print(a)
         return Response(a, status=status.HTTP_200_OK)
+
