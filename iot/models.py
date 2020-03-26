@@ -5,7 +5,8 @@ from django.db import models
 class IotModel(models.Model):
     device_name = models.CharField(max_length=200)
     status = models.CharField(max_length=10)
-    colour = models.CharField(max_length=20)
+    colour = models.CharField(max_length=20, blank=True)
+
     # url=models.u
 
     def __str__(self):
