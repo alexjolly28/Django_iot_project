@@ -26,7 +26,7 @@ def main(text):
 
     json_a = json.dumps(a)
     resp = requests.post(api_url, json=json_a)
-    print(resp)
+    # print(resp)
     return (True)
 
 

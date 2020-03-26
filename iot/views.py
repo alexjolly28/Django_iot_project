@@ -47,8 +47,6 @@ class EndView(APIView):
         return Response(serializer.data)
 
     def post(self, request):
-        print(request.data)
         a = rasa_test.main(request.data)
-        print(a)
         return Response(a, status=status.HTTP_200_OK)
 
